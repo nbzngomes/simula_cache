@@ -318,7 +318,7 @@ int main(int argc, char *argv[]) {
     
     if (argc < 9) {
         fprintf(stderr,
-            "Uso: %s <politica_escrita> <tam_linha> <num_linhas> <assoc>"
+            "Uso: %s simula_cache <politica_escrita> <tam_linha> <num_linhas> <assoc>"
             " <hit_time> <LRU|RAND> <mem_tempo>\n"
             "Exemplo: %s 0 64 4096 2 10 LRU 80\n",
             argv[0], argv[0]);
